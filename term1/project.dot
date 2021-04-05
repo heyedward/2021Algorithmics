@@ -1,0 +1,23 @@
+graph {
+"lounge" ;
+"stairs" ;
+"hall" ;
+"bath" ;
+"dining" ;
+"bedroom 1" ;
+"bedroom 2" ;
+"kitchen" ;
+"verandah" ;
+
+"lounge" -- "hall";
+"lounge" -- "dining";
+"stairs" -- "hall";
+"hall" -- "bedroom 1";
+"hall" -- "bedroom 2";
+"hall" -- "bath";
+"hall" -- "verandah";
+"hall" -- "dining";
+"bath" -- "bedroom 2";
+"dining" -- "kitchen";
+"kitchen" -- "verandah";
+}
