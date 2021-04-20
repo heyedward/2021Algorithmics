@@ -4,7 +4,7 @@ def palindrome(string):
     lst = []
     for c in string:
         if c in chars:
-            lst.append(c)
+            lst.append(c.lower())
     length = len(lst)
     for i in range(length//2):
         if lst[i] != lst[length-1-i]:
@@ -16,3 +16,4 @@ print(palindrome("lol"))
 print(palindrome("a"))
 print(palindrome("abcd"))
 print(palindrome("...!!4929ellle"))
+print(palindrome("madam!"))
