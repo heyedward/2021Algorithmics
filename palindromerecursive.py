@@ -1,4 +1,5 @@
 def palindrome(a,b=None):
+    ''' Recursive palindrome of a word/sentence '''
     if not b:
         chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
         lst = []
